@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Fuggles&family=Nanum+Gothic&family=Roboto&display=swap");
+body {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Dancing Script", cursive;
+  font-family: "Fuggles", cursive;
+  font-family: "Nanum Gothic", sans-serif;
+  font-family: "Roboto", sans-serif;
+  background-color: #f5f5f5;
+}
+.logo img {
+  height: 100px;
+  width: 150px;
+}
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .show > .nav-link {
+  color: rgba(255, 0, 0, 0.9);
+}
+.dropdown-menu .dropdown-item.active{
+    color: rgba(255, 0, 0, 0.9);
+    background-color: transparent;
+}
+.hero {
+  background-image: url(/assests/images/hero-background.png);
+  height: 600px;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-hr hr {
+  color: rgb(125, 0, 0);
+  height: 10px;
+  width: 200px;
+}
+
+.whatsapp-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background-color: green;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 999;
+}
+.support hr {
+  color: #ff0040 !important;
+  height: 3.5px;
+  width: 120px;
+  border: none;
+}
+.customer-service {
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 200px;
+}
+
+.customer-support {
+  border-radius: 10px;
+}
+.customer-support:hover {
+  transform: translateY(-10px);
+  transition: transform 0.8s ease;
+}
+
+.customer-service img {
+  width: 180px;
+  height: 170px;
+}
+
+.cloud-storage-txt h1 {
+  color: #fb2056;
+  word-spacing: 5px;
+  letter-spacing: 2px;
+}
+.cloud-storage-txt p {
+  word-spacing: 5px;
+  margin-top: 15px;
+  line-height: 30px;
+}
+.cloud-storage-txt button {
+  padding: 13px 50px;
+  color: white;
+  font-size: 14px;
+  background-color: #fb2056;
+}
+.cloud-storage-txt button:hover {
+  background-color: #da1c4b;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.cloud-images img {
+  border-radius: 10px;
+}
+
+.btn {
+  padding: 13px 50px;
+  color: white;
+  font-size: 14px;
+}
+.btn:hover {
+  transition: 0.4s;
+}
+.experience {
+  background-image: url(/assests/images/7.webp);
+  height: 400px;
+  background-size: cover;
+  background-attachment: fixed;
+  /* position: absolute; */
+}
+.experience h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+.customer-says h1 {
+  font-size: 35px;
+  font-weight: 600;
+  word-spacing: 5px;
+}
+.excellence-redefiend {
+  background-image: url(/assests/images/7.webp);
+  padding-bottom: 50px;
+}
+.excellence-redefiend h1 {
+  padding-top: 70px;
+  font-weight: 900;
+}
+.excellence-redefiend-1 {
+  background-image: url(/assests/images/3.webp);
+  padding-bottom: 50px;
+}
+.excellence-redefiend-1 h1 {
+  padding-top: 70px;
+  font-weight: 900;
+}
+.nav-logo img {
+  width: 150px;
+  height: 60px;
+}
+.forth-pic {
+  height: 228px;
+  width: 100%;
+  object-fit: cover;
+}
+.aboutus-hero{
+    background-image: url(/assests/images/dylan-gillis-KdeqA3aTnBY-unsplash-1536x1024.webp);
+    height: 600px;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.aboutus-hero-hr hr{
+    width: 70px;
+    height: 5px;
+    color: #ff0000;
+}
+.aboutus-heading{
+    font-weight: 900;
+    font-size: 55px;
+    letter-spacing: 1px;
+}
+.aboutus-heading-1{
+    font-weight: 900;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+.company-hr{
+    width: 50px;
+    color: #da1c4b;
+}
+.company-img{
+  box-shadow: 10px 10px 5px 0px rgba(206,205,205,0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(206,205,205,0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(206,205,205,0.75);
+  border-radius: 10px;
+}
+.core-hr{
+    width: 15px;
+    color: #da1c4b;
+}
+.excellence-redefiend-2{
+    background-image: url(/assests/images/3.webp);
+    padding-bottom: 450px;
+    background-size: cover;
+}
+.excellence-redefiend-3{
+    background-image: url(/assests/images/4.webp);
+    padding-bottom: 450px;
+    background-size: cover;
+}
+.excellence-redefiend-4{
+    background-image: url(/assests/images/5.webp);
+    padding-bottom: 450px;
+    background-size: cover;
+}
+.excellence-redefiend-5{
+    background-image: url(/assests/images/6.webp);
+    padding-bottom: 450px;
+    background-size: cover;
+}
+.excellence-redefiend-6{
+    background-image: url(/assests/images/7.webp);
+    padding-bottom: 450px;
+    background-size: cover;
+}
+.services-hero{
+    background-image: url(/assests/images/dylan-gillis-KdeqA3aTnBY-unsplash-1536x1024.webp);
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.services-hero hr{
+    width: 70px;
+    margin-left: 310px;
+    height: 5px;
+    color: #ff0000;
+}
+.line-danger{
+    width: 70px;
+    height: 5px;
+    color: #ff0000;
+}
+.line-danger-2{
+    width: 20px;
+    height: 1115px;
+    color: #ff0000;
+}
+.line-danger-3{
+    width: 160px;
+    /* height: 100px; */
+    color: #ff0000;
+    margin-top: -8px;
+}
+.dropdown-item:hover{
+    color: red;
+}
+.navbar-light .navbar-nav .nav-item a:hover .nav-link{
+color: #ff0000;
+}
+.checkout-img{
+    box-shadow: 8px 10px 0px 0px #E4E4E4;
+    width: 500px;
+    border-radius: 5px;
+    transition: transform 0.8s ease;
+}
+.checkout-img-heading{
+    font-weight: 900;
+}
+.checkout-img:hover{
+    transform: translateY(-10px);
+    
+}
+.why-choose-us{
+    margin: 130px 0px;
+}
+.choose-us-heading{
+    font-weight: 900;
+}
+.contact-hero{
+    background-image: url(/assests/images/5.webp);
+    height: 600px;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact-hero hr{
+    width: 70px;
+    margin-left: 360px;
+    height: 5px;
+    color: #ff0000;
+}
+.contact-hero h1,h3{
+    font-weight: 900;
+}
+.contact-hero h1{
+    font-size: 55px;
+}
+.contact-hero h3{
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    line-height: 40px;
+      font-size: 40px;
+}
+.input-size{
+    width: 350px;
+    height: 40px;
+}
+.contact-details h1,h4{
+font-weight: 900;
+margin-top: 20px;
+}
+.nav-link:hover {
+    color:#da1c4b;
+}
+.vision-hero{
+background-image: url(/assests/images/5.webp);
+}
+.our-vision-content p b{
+    font-size: 16px;
+}
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .customer-service img {
+    width: 100px;
+    height: 100px;
+  }
+  .customer-service {
+    height: 140px;
+    width: 400px;
+  }
+  .cloud-images img {
+    margin-top: 120px;
+  }
+  .experience h1 {
+    font-size: 30px;
+  }
+  .forth-pic {
+    height: 78px;
+  }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .experience-heading {
+    display: flex;
+    flex-direction: column;
+  }
+  .experience {
+    height: max-content;
+  }
+  .contact-hero h3{
+      font-size: 24px;
+}
+  .contact-hero hr{
+    margin-left: 140px;
+}
+.contact-hero h1{
+    font-size: 45px;
+}
+  .customer-says {
+    display: flex;
+    flex-direction: column;
+  }
+  .customer-heading {
+    font-size: 20px !important;
+  }
+  .experience h1 {
+    font-size: 25px;
+  }
+  .cloud-images img {
+    margin-top: 10px;
+  }
+  .forth-pic {
+    height: 200px;
+  }
+  .hero {
+    background-position: center;
+  }
+}
+
+
+@media (max-width: 767px) {
+    .divider {
+      display: none;
+    }
+  }
+  
+  @media (min-width: 767.98px) {
+    .divider {
+      display: block;
+      visibility: hidden;
+      font-size: 0;
+    }
+  }
